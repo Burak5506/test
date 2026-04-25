@@ -1,0 +1,148 @@
+{
+  "files": [
+    {
+      "fileNumber": 1,
+      "title": "Müze Soygunu",
+      "description": "Bu senaryoda oyuncular, yüksek güvenlikli Altın Kelebek Müzesi’ne giren profesyonel bir hırsızın peşindedir. Soyguncu hiçbir sensöre yakalanmamış, hiçbir kapıyı zorlamamıştır. Ancak kusursuz planı, beklenmedik bir fiziksel detay yüzünden altüst olur. Oyuncuların odaklanması gereken şey, \"orada olmaması gereken\" o görsel kusurdur.",
+      "story": "Saat 03:14. Müzenin sessizliğini delen alarm, gece bekçisini koltuğundan fırlattı. Koridorlarda yankılanan siren sesi, sergi salonunun soğuk mermerlerinde titriyordu. Güvenlik ekipleri, paha biçilemez \"Suskun İmparatoriçe\" elmasının bulunduğu odaya daldıklarında buz kestiler. Cam vitrin sapasağlam duruyordu, elmas yerindeydi.\n\nAncak vitrinin hemen altındaki beyaz mermerin üzerinde, ay ışığında parlayan taze, dairesel ve koyu kırmızı bir ... duruyordu.\n\nBaşmüfettiş olay yerine geldiğinde eldivenlerini taktı ve eğilip o kızıllığa baktı. \"Hırsız içeri girmeyi başarmış,\" dedi sakince. \"Güvenlik sistemini aşmış ama kendi doğasını aşamamış. Bu kusursuz beyazlığın ortasındaki bu küçük ..., aslında bir kaçışın değil, bir yakalanışın başlangıcıdır. Çünkü her suç, arkasında silinemez bir iz bırakır.\"",
+      "events": [
+        {
+          "title": "Alarm Var",
+          "eventNumber": 1,
+          "text": "Müzenin ağır bronz kapıları, gece yarısı çalmaya başlayan keskin bir alarmla sarsıldı. Güvenlik ekipleri içeri daldığında hiçbir şeyin çalınmadığını gördü; ancak paha biçilemez tablonun tam önünde, ışıkta parlayan tuhaf, taze bir kızıllık vardı.\n\nDedektif, el fenerini yere tutarak fısıldadı:\n\n\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o ... aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\"",
+          "answer": "leke",
+          "hint": "İpucu: Olay yerindeki somut kanıt kırmızı leke",
+          "hintCost": 20
+        },
+        {
+          "title": "Loş Oda",
+          "eventNumber": 2,
+          "text": "Müfettiş yerdeki kızıllığı incelerken, masanın üzerinde \"Saat 03:00\" yazan bir not buldu. Ancak asıl hata, hırsızın odayı terk ederken acele etmesiydi. Müfettiş fenerini kapının alt kısmına, kilidin hemen yanındaki omuz hizasındaki duvara tuttuğunda mermer tozuna bulanmış belirgin bir şekil gördü ve ekledi:\n\n\"Anlaşılan hırsız kapıyı açmakta zorlanınca duvardan destek alıp yüklenmiş. Kapının hemen yanındaki bu net ..., bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\"",
+          "answer": "ayak izi",
+          "hint": "Tozlu bir zeminde yürürken farkında olmadan yazdığın bir 'kimlik kartı' gibidir. Suçlu odayı terk ederken acele etmiş ve kapının pervazına kendi imzasını mühürlemiş",
+          "hintCost": 20
+        },
+        {
+          "title": "Talihsiz Kaza",
+          "eventNumber": 3,
+          "text": "Kurbanın masasındaki dosya karışmış ve bazı belgeler eksik. Hangisi şüphelinin hareketini gösterir?",
+          "answer": "belge",
+          "hint": "İpucu: Kayıp belgeler olayın merkezinde",
+          "hintCost": 20
+        },
+        {
+          "title": "Kırık Vitrin",
+          "eventNumber": 4,
+          "text": "Müzedeki bir vitrin kırılmış. Hangi ipucu olayı çözmede önemli olabilir?",
+          "answer": "vitrin",
+          "hint": "İpucu: Kırık vitrin soygunun gerçekleştiğini gösterir",
+          "hintCost": 15
+        },
+        {
+          "title": "Gizemli Ayakkabı",
+          "eventNumber": 5,
+          "text": "Olay yerinde tek bir ayakkabı bulundu. Bu ipucu neyi gösteriyor olabilir?",
+          "answer": "ayakkabı",
+          "hint": "İpucu: Ayakkabı izi şüphelinin yönünü gösteriyor",
+          "hintCost": 15
+        },
+        {
+          "title": "Parmak İzi",
+          "eventNumber": 6,
+          "text": "Vitrin camında parmak izi bulundu. Şüpheliyi tespit etmede hangi bilgi önemlidir?",
+          "answer": "parmak izi",
+          "hint": "İpucu: Parmak izi kimlik belirlemede kullanılır",
+          "hintCost": 20
+        },
+        {
+          "title": "Kameradan İzleme",
+          "eventNumber": 7,
+          "text": "Güvenlik kameralarına bakıldığında bir gölge hareket ediyor. Hangi ipucu bu olayla ilgilidir?",
+          "answer": "gölge",
+          "hint": "İpucu: Kamera kaydı şüpheliyi gözetlemede yardımcıdır",
+          "hintCost": 15
+        },
+        {
+          "title": "Şifreli Not",
+          "eventNumber": 8,
+          "text": "Olay yerinde şifreli bir not bulundu. Bu not neyi gösterebilir?",
+          "answer": "not",
+          "hint": "İpucu: Not şüphelinin bir sonraki adımını gösterebilir",
+          "hintCost": 20
+        },
+        {
+          "title": "Anahtar Bulundu",
+          "eventNumber": 9,
+          "text": "Müzenin kilitli odasından bir anahtar bulundu. Bu ipucu hangi bilgiyi sağlar?",
+          "answer": "anahtar",
+          "hint": "İpucu: Anahtar başka bir odanın açılmasını sağlar",
+          "hintCost": 20
+        }
+      ]
+    },
+    {
+      "fileNumber": 2,
+      "title": "Parkta Buluntu",
+      "description": "Parkta bulunan gizemli bir çanta ve ipuçlarını takip ederek suçluyu ortaya çıkarın. Kimlik, mektup, ayak izleri ve eldiven bu gizemi çözmek için kritik öğeler.",
+      "story": "Parkta bir çanta bulundu. İçinde kimlik ve bir mektup var; çimlerin üzerinde ise belli belirsiz ayak izleri var. Daha sonra bir banka kasası açılmış ve yanında bir eldiven bulunmuş. Tüm bu ipuçları sizi, parktaki buluntunun ardındaki gizemi çözmeye ve suçluyu ortaya çıkarmaya götürecek.",
+      "events": [
+        {
+          "title": "Gizemli Çanta",
+          "eventNumber": 1,
+          "text": "Parkta bir çanta bulundu. Çantanın içinde kimlik ve bir mektup var. Hangi ipucu olayı çözmek için kritik?",
+          "answer": "mektup",
+          "hint": "İpucu: Mektup olayla ilgili yönlendirme içeriyor",
+          "hintCost": 20
+        },
+        {
+          "title": "Bahçe",
+          "eventNumber": 2,
+          "text": "Şüphelinin ayakkabı izi parkta bulundu. İz, çim üzerinde derin ve belli belirsiz. Neye göre tahmin yürütürsünüz?",
+          "answer": "ayak izi",
+          "hint": "İpucu: Ayakkabı izinin derinliği kişinin ağırlığı hakkında bilgi verir",
+          "hintCost": 20
+        },
+        {
+          "title": "Banka",
+          "eventNumber": 3,
+          "text": "Bir banka kasası açılmış. Paranın yanında bir eldiven bulundu. Olayla ilgili en önemli ipucu nedir?",
+          "answer": "eldiven",
+          "hint": "İpucu: Olay yerinde bırakılan fiziksel iz eldiven",
+          "hintCost": 20
+        }
+      ]
+    },
+    {
+      "fileNumber": 3,
+      "title": "Ofis Gizemi",
+      "description": "Ofiste meydana gelen karmaşık olayları çözün. Şifreli mesajlar, ayak izleri ve kırık cam parçaları şüphelinin izini ortaya çıkarıyor.",
+      "story": "Ofise geldiğinizde işler karışmıştı: bilgisayar kırılmış, ekranlarda şifreli mesajlar var, depoda kutular kaybolmuş ve mutfakta bir bardak kırılmış. Her olay birbirine bağlı: mesajlar sizi bilgisayarın ardındaki sırra götürür, ayak izleri depodaki hareketleri gösterir ve kırık cam parçaları şüphelinin izini ortaya çıkarır. Tüm bu ipuçları, ofisteki gizemi çözmek için bir araya geliyor.",
+      "events": [
+        {
+          "title": "Anahtar",
+          "eventNumber": 1,
+          "text": "Ofiste bir bilgisayar kırılmış bulundu. Ekranda şifreli bir mesaj var. En önemli ipucu hangisidir?",
+          "answer": "mesaj",
+          "hint": "İpucu: Şifreli mesaj olayın çözümünde anahtar",
+          "hintCost": 20
+        },
+        {
+          "title": "Gizemli Depo",
+          "eventNumber": 2,
+          "text": "Depoda bir kutu kaybolmuş. Kutunun etrafında ayak izleri var. Olayla ilgili kritik ipucu nedir?",
+          "answer": "ayak izi",
+          "hint": "İpucu: Ayak izleri şüphelinin hareketini gösteriyor",
+          "hintCost": 20
+        },
+        {
+          "title": "Mutfak",
+          "eventNumber": 3,
+          "text": "Mutfakta bir bardak kırılmış. Kırık cam parçaları bir yerlere taşınmış. Hangi ipucu olayın çözümünde önemli?",
+          "answer": "cam",
+          "hint": "İpucu: Kırık cam parçaları şüphelinin izini gösteriyor",
+          "hintCost": 20
+        }
+      ]
+    }
+  ]
+}
