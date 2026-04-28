@@ -1,0 +1,31 @@
+
+{
+  "versionCode": 1,
+  "achievements": [
+    {
+      "id": "first_case",
+      "title": "İlk Vaka",
+      "description": "Perde aralandı. Bu sadece başlangıç."
+    },
+    {
+      "id": "streak_3",
+      "title": "Seri Çözüm",
+      "description": "Zihin hızlandı. Tesadüf olamayacak kadar kusursuz."
+    },
+    {
+      "id": "no_hint",
+      "title": "Saf Zeka",
+      "description": "Karanlıkta yolunu kendi bulanlardan biri."
+    },
+    {
+      "id": "rich_500",
+      "title": "Zengin",
+      "description": "Servet birikti… ama bedeli neydi?"
+    },
+    {
+      "id": "detective_10",
+      "title": "Dedektif",
+      "description": "Gerçekler açığa çıktı. Ama bazıları keşke çıkmasaydı."
+    }
+  ]
+}
