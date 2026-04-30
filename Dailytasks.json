@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": 1,
+      "difficulty": "kolay",
+      "question": "Olay yerinde bulunan parmak izi hangi yüzeylerde en net şekilde görülür?",
+      "options": [
+        "Pürüzlü beton",
+        "Parlak cam veya metal",
+        "Kuru toprak",
+        "Halı"
+      ],
+      "correctIndex": 1,
+      "reward": { "money": 5 },
+      "explanation": "Parmak izleri en net şekilde parlak, pürüzsüz yüzeylerde görülür."
+    },
+    {
+      "id": 2,
+      "difficulty": "kolay",
+      "question": "Bir dedektif olay yerinde önce ne yapmalıdır?",
+      "options": [
+        "Şüphelileri sorgulamak",
+        "Delillere dokunmadan gözlemlemek",
+        "Tanıkları aramak",
+        "Rapor yazmak"
+      ],
+      "correctIndex": 1,
+      "reward": { "money": 5 },
+      "explanation": "Delillere dokunmadan önce kapsamlı gözlem yapılmalıdır; aksi takdirde deliller bozulabilir."
+    },
+    {
+      "id": 3,
+      "difficulty": "orta",
+      "question": "Bir şüphelinin suç anında olay yerinde olmadığını kanıtlayan delile ne denir?",
+      "options": [
+        "Motif",
+        "Alibi",
+        "İtiraf",
+        "Tanıklık"
+      ],
+      "correctIndex": 1,
+      "reward": { "money": 10 },
+      "explanation": "Alibi, bir şüphelinin suç anında başka bir yerde olduğunu kanıtlayan delildir."
+    },
+    {
+      "id": 4,
+      "difficulty": "orta",
+      "question": "Olay yerinde bulunan kan lekesinin yaşını belirlemek için hangi yöntem kullanılır?",
+      "options": [
+        "Parmak izi analizi",
+        "DNA testi",
+        "Luminol testi",
+        "Balistik inceleme"
+      ],
+      "correctIndex": 2,
+      "reward": { "money": 10 },
+      "explanation": "Luminol testi, eski ve silinmeye çalışılmış kan izlerini bile tespit edebilir."
+    },
+    {
+      "id": 5,
+      "difficulty": "zor",
+      "question": "Bir ceset bulunduğunda ölüm zamanını tahmin etmek için hangi biyolojik gösterge kullanılır?",
+      "options": [
+        "Vücut sıcaklığı (Algor Mortis)",
+        "Kan grubu",
+        "Parmak izi şekli",
+        "Göz rengi"
+      ],
+      "correctIndex": 0,
+      "reward": { "money": 15, "lives": 1 },
+      "explanation": "Algor Mortis, ölümden sonra vücudun soğuma hızıdır. Bu hız ölüm zamanını tahmin etmekte kullanılır."
+    }
+  ]
+}
