@@ -10,7 +10,7 @@
         {
           "title": "Alarm Var",
           "eventNumber": 1,
-          "text": "Müzenin ağır bronz kapıları, gece yarısı çalmaya başlayan keskin bir alarmla sarsıldı. Güvenlik ekipleri içeri daldığında hiçbir şeyin çalınmadığını gördü; ancak paha biçilemez tablonun tam önünde, ışıkta parlayan tuhaf, taze bir kızıllık vardı.\n\nDedektif, el fenerini yere tutarak fısıldadı:\n\n\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o ... aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\"",
+          "text": "Müzenin ağır bronz kapıları, gece yarısı çalmaya başlayan keskin bir alarmla sarsıldı. Güvenlik ekipleri içeri daldığında hiçbir şeyin çalınmadığını gördü; ancak paha biçilemez tablonun tam önünde, ışıkta parlayan tuhaf, taze bir kızıllık vardı.\n\nDedektif, el fenerini yere tutarak fısıldadı:\n\n\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o {answer} aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\"",
           "answer": "leke",
           "hint": "Mermerdeki kızıllık, hırsızın biyolojik imzasıdır.",
           "hintCost": 20
@@ -18,7 +18,7 @@
         {
           "title": "Loş Oda",
           "eventNumber": 2,
-          "text": "Müfettiş yerdeki kızıllığı incelerken, masanın üzerinde \"Saat 03:00\" yazan bir not buldu. Ancak asıl hata, hırsızın odayı terk ederken acele etmesiydi. Müfettiş fenerini kapının alt kısmına, kilidin hemen yanındaki omuz hizasındaki duvara tuttuğunda mermer tozuna bulanmış belirgin bir şekil gördü ve ekledi:\n\n\"Anlaşılan hırsız kapıyı açmakta zorlanınca duvardan destek alıp yüklenmiş. Kapının hemen yanındaki bu net ..., bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\"",
+          "text": "Müfettiş yerdeki kızıllığı incelerken, masanın üzerinde \"Saat 03:00\" yazan bir not buldu. Ancak asıl hata, hırsızın odayı terk ederken acele etmesiydi. Müfettiş fenerini kapının alt kısmına, kilidin hemen yanındaki omuz hizasındaki duvara tuttuğunda mermer tozuna bulanmış belirgin bir şekil gördü ve ekledi:\n\n\"Anlaşılan hırsız kapıyı açmakta zorlanınca duvardan destek alıp yüklenmiş. Kapının hemen yanındaki bu net {answer}, bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\"",
           "answer": "ayak izi",
           "hint": "Tozlu bir zeminde yürürken farkında olmadan yazdığın bir 'kimlik kartı' gibidir. Suçlu odayı terk ederken acele etmiş ve kapının pervazına kendi imzasını mühürlemiş",
           "hintCost": 20
