@@ -127,48 +127,6 @@
         "hint": "İpucu: Kırık cam parçaları şüphelinin izini gösteriyor",
         "hintCost": 20
       }
-    ],
-    "4": [
-      {
-        "title": "Çalışma Odası",
-        "eventNumber": 1,
-        "text": "Fırtınalı bir gecede, kasabanın en zengin iş adamının malikânesine çağrıldım. Çalışma odasındaki çalışma masası darmadağındı ve kilitli çekmece zorlanarak açılmıştı. Masanın hemen yanında, hırsızın kaçarken düşürdüğü ve üzerinde yabancı bir isim yazılı olan deri bir {answer} duruyordu.",
-        "answer": "Ajanda",
-        "hint": "İçinde kartların, paraların ve bazen de sahibinin kimliğinin bulunduğu, deri aksesuar.",
-        "hintCost": 20
-      },
-      {
-        "title": "Karanlıkta Bir Parıltı",
-        "eventNumber": 2,
-        "text": "Odanın pencerelerini kontrol ederken, balkon kapısının tam kapanmadığını fark ettim. Dışarıdaki karanlık ve çamurlu bahçede, bahçıvanın kulübesine doğru hareket eden belirgin bir {answer} ışığı seçiliyordu. Yağmur şiddetlenmeden önce bu parıltının peşinden gitmem gerekiyordu.",
-        "answer": "fener",
-        "hint": "Karanlıkta yolunu bulmak isteyen birinin etrafı aydınlatmak için kullandığı araç.",
-        "hintCost": 20
-      },
-      {
-        "title": "Görgü Tanığı",
-        "eventNumber": 3,
-        "text": "Bahçıvanın kulübesine vardığımda yaşlı adamın elleri titriyordu. Bana o gece bahçede bir karaltı gördüğünü, ancak şimşek çaktığı anda yabancının yüzünü tamamen gizleyen siyah bir {answer} taktığını fark ettiğini söyledi. Bu, profesyonel bir soyguncuyla karşı karşıya olduğumuzun ilk işaretiydi.",
-        "answer": "maske",
-        "hint": "Birinin yüzünü tanınmaz hale getirmek için taktığı, sadece göz delikleri olan örtü veya nesne.",
-        "hintCost": 20
-      },
-      {
-        "title": "Tozlu Basamaklar",
-        "eventNumber": 4,
-        "text": "Malikâneye geri dönüp gizli bir bölme ararken, kütüphanedeki kitaplığın arkasında dar bir merdiven buldum. Tozlu basamakları tırmandığımda, küçük bir sandığın içinde gizlenmiş, üzerinde eski mühürler bulunan buruşuk bir {answer} parçası buldum. Bu belge, çalınan vasiyetnamenin aslında sahte olduğunu kanıtlıyordu.",
-        "answer": "Kağıt",
-        "hint": "Üzerine yazı yazılan, vasiyetnamelerin veya gizli notların hazırlandığı ince malzeme",
-        "hintCost": 20
-      },
-      {
-        "title": "Kaçınılmaz Son",
-        "eventNumber": 5,
-        "text": "Aileyi salonda topladığımda hepsinin yüzünde bir gerginlik vardı. Suçlunun kim olduğunu açıklayacakken, yeğenlerden birinin paltosunun cebinden sarkan metal bir {answer} parıltısını gördüm. Çekmeceyi açmak için kullandığı o alet, gerçek suçluyu tüm aileye ilan etmeye yetmişti.",
-        "answer": "Anahtar",
-        "hint": "Kilitli kapıları veya çekmeceleri açmak için kullanılan metal araç",
-        "hintCost": 20
-      }
     ]
   }
 }
