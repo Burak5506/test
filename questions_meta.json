@@ -1,11 +1,16 @@
 {
-  "version": 7,
+  "version": 8,
   "batchSize": 50,
   "batches": [
     {
       "batchIndex": 1,
-      "version": 1,
-      "fileNumbers": [1, 2, 3]
+      "version": 2,
+      "fileNumbers": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "files": [
@@ -32,6 +37,14 @@
       "image": "https://raw.githubusercontent.com/Burak5506/test/main/map3.jpg",
       "description": "Ofiste meydana gelen karmaşık olayları çözün. Şifreli mesajlar, ayak izleri ve kırık cam parçaları şüphelinin izini ortaya çıkarıyor.",
       "story": "Ofise geldiğinizde işler karışmıştı: bilgisayar kırılmış, ekranlarda şifreli mesajlar var, depoda kutular kaybolmuş ve mutfakta bir bardak kırılmış. Her olay birbirine bağlı: mesajlar sizi bilgisayarın ardındaki sırra götürür, ayak izleri depodaki hareketleri gösterir ve kırık cam parçaları şüphelinin izini ortaya çıkarır. Tüm bu ipuçları, ofisteki gizemi çözmek için bir araya geliyor."
+    },
+    {
+      "fileNumber": 4,
+      "batchIndex": 1,
+      "title": "Kayıp Vasiyetname",
+      "image": "https://raw.githubusercontent.com/Burak5506/test/refs/heads/main/map4.jpg",
+      "description": "Kasabanın en eski ve en zengin ailesi olan Demirsoy ailesi, mirasın açıklanacağı gün büyük bir şokla sarsılır. Ailenin büyük babasından kalan vasiyetname, kilitli odadan bir gölge gibi çalınmıştır. Dedektif olarak görevin; fırtınalı bu gecede malikânenin karanlık koridorlarında dolaşmak, ipuçlarını toplamak ve bu aile sırrını kimin çalmaya cesaret ettiğini ortaya çıkarmaktır. Her adım seni gerçeğe daha çok yaklaştıracak.",
+      "story": "Kasabanın en eski ve en zengin ailesi olan Demirsoy ailesi, mirasın açıklanacağı gün büyük bir şokla sarsılır. Ailenin büyük babasından kalan vasiyetname, kilitli odadan bir gölge gibi çalınmıştır. Dedektif olarak görevin; fırtınalı bu gecede malikânenin karanlık koridorlarında dolaşmak, ipuçlarını toplamak ve bu aile sırrını kimin çalmaya cesaret ettiğini ortaya çıkarmaktır. Her adım seni gerçeğe daha çok yaklaştıracak."
     }
   ]
 }
