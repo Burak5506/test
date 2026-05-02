@@ -1,16 +1,16 @@
 {
-  "version": 11,
+  "version": 12,
   "batchSize": 2,
   "batches": [
     {
       "batchIndex": 1,
       "version": 2,
-      "fileNumbers": [
-        1,
-        2,
-        3,
-        4
-      ]
+      "fileNumbers": [1, 2, 3]
+    },
+    {
+      "batchIndex": 2,
+      "version": 1,
+      "fileNumbers": [4]
     }
   ],
   "files": [
