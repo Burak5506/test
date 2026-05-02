@@ -1,16 +1,16 @@
 {
-  "version": 14,
-  "batchSize": 2,
+  "version": 15,
+  "batchSize": 5,
   "batches": [
     {
       "batchIndex": 1,
-      "version": 3,
-      "fileNumbers": [1, 2, 3]
-    },
-    {
-      "batchIndex": 2,
-      "version": 3,
-      "fileNumbers": [4]
+      "version": 4,
+      "fileNumbers": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "files": [
@@ -40,7 +40,7 @@
     },
     {
       "fileNumber": 4,
-      "batchIndex": 2,
+      "batchIndex": 1,
       "title": "Kayıp Vasiyetname",
       "image": "https://raw.githubusercontent.com/Burak5506/test/main/map4.jpg",
       "description": "Kasabanın en eski ve en zengin ailesi olan Demirsoy ailesi, mirasın açıklanacağı gün büyük bir şokla sarsılır. Ailenin büyük babasından kalan vasiyetname, kilitli odadan bir gölge gibi çalınmıştır. Dedektif olarak görevin; fırtınalı bu gecede malikânenin karanlık koridorlarında dolaşmak, ipuçlarını toplamak ve bu aile sırrını kimin çalmaya cesaret ettiğini ortaya çıkarmaktır. Her adım seni gerçeğe daha çok yaklaştıracak.",
