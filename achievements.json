@@ -1,55 +1,149 @@
 {
-  "versionCode": 2,
+  "versionCode": 3,
   "achievements": [
     {
-      "id": "first_case",
+      "id": "files_completed_1",
       "title": "İlk Vaka",
-      "description": "Perde aralandı. Bu sadece başlangıç."
+      "description": "Perde aralandı. Bu sadece başlangıç.",
+      "condition": { "op": "gte", "field": "completedFiles", "value": 1 }
+    },
+    {
+      "id": "files_completed_5",
+      "title": "Beş Dosya",
+      "description": "Beş vaka kapandı. İz sürme bir alışkanlık oldu.",
+      "condition": { "op": "gte", "field": "completedFiles", "value": 5 }
+    },
+    {
+      "id": "files_completed_10",
+      "title": "On Dosya",
+      "description": "On dosya. Şehrin en çok aranan dedektifi.",
+      "condition": { "op": "gte", "field": "completedFiles", "value": 10 }
+    },
+    {
+      "id": "correct_5",
+      "title": "Çaylak Dedektif",
+      "description": "Beş doğru cevap. İyi bir başlangıç.",
+      "condition": { "op": "gte", "field": "totalCorrect", "value": 5 }
+    },
+    {
+      "id": "correct_10",
+      "title": "Dedektif",
+      "description": "Gerçekler açığa çıktı. Ama bazıları keşke çıkmasaydı.",
+      "condition": { "op": "gte", "field": "totalCorrect", "value": 10 }
+    },
+    {
+      "id": "correct_25",
+      "title": "Deneyimli Dedektif",
+      "description": "Yirmi beş vaka çözüldü. Artık şüphe değil, içgüdü yönetiyor.",
+      "condition": { "op": "gte", "field": "totalCorrect", "value": 25 }
+    },
+    {
+      "id": "correct_50",
+      "title": "Usta Dedektif",
+      "description": "Artık hiçbir şey gözünden kaçmıyor.",
+      "condition": { "op": "gte", "field": "totalCorrect", "value": 50 }
+    },
+    {
+      "id": "correct_100",
+      "title": "Efsane Dedektif",
+      "description": "Yüz doğru. Artık bir efsanesin.",
+      "condition": { "op": "gte", "field": "totalCorrect", "value": 100 }
+    },
+    {
+      "id": "money_500",
+      "title": "Zengin",
+      "description": "Servet birikti… ama bedeli neydi?",
+      "condition": { "op": "gte", "field": "money", "value": 500 }
+    },
+    {
+      "id": "money_1000",
+      "title": "Para Babası",
+      "description": "Bin lira. Dedektiflik oldukça karlı bir iş.",
+      "condition": { "op": "gte", "field": "money", "value": 1000 }
+    },
+    {
+      "id": "money_2000",
+      "title": "Servet Sahibi",
+      "description": "İki bin. Artık dedektiflik değil, kariyer.",
+      "condition": { "op": "gte", "field": "money", "value": 2000 }
+    },
+    {
+      "id": "money_5000",
+      "title": "Hazine Avcısı",
+      "description": "Beş bin. Her ipucu bir yatırıma dönüştü.",
+      "condition": { "op": "gte", "field": "money", "value": 5000 }
+    },
+    {
+      "id": "money_10000",
+      "title": "Dedektif İmparatorluğu",
+      "description": "On bin. Artık büro senin.",
+      "condition": { "op": "gte", "field": "money", "value": 10000 }
     },
     {
       "id": "streak_3",
       "title": "Seri Çözüm",
-      "description": "Zihin hızlandı. Tesadüf olamayacak kadar kusursuz."
-    },
-    {
-      "id": "no_hint",
-      "title": "Saf Zeka",
-      "description": "Karanlıkta yolunu kendi bulanlardan biri."
-    },
-    {
-      "id": "rich_500",
-      "title": "Zengin",
-      "description": "Servet birikti… ama bedeli neydi?"
-    },
-    {
-      "id": "detective_10",
-      "title": "Dedektif",
-      "description": "Gerçekler açığa çıktı. Ama bazıları keşke çıkmasaydı."
+      "description": "Zihin hızlandı. Tesadüf olamayacak kadar kusursuz.",
+      "condition": { "op": "gte", "field": "correctStreak", "value": 3 }
     },
     {
       "id": "streak_7",
       "title": "Durmak Yok",
-      "description": "Yedi vaka, tek hata yok. Bu bir alışkanlık haline geliyor."
+      "description": "Yedi vaka, tek hata yok. Bu bir alışkanlık haline geliyor.",
+      "condition": { "op": "gte", "field": "correctStreak", "value": 7 }
+    },
+    {
+      "id": "streak_15",
+      "title": "Durdurulamaz",
+      "description": "On beş art arda. Kimse seni durduramıyor.",
+      "condition": { "op": "gte", "field": "correctStreak", "value": 15 }
+    },
+    {
+      "id": "clean_1",
+      "title": "Saf Zeka",
+      "description": "Karanlıkta yolunu kendi bulanlardan biri.",
+      "condition": { "op": "gte", "field": "cleanSolves", "value": 1 }
+    },
+    {
+      "id": "clean_10",
+      "title": "Gerçek Avcısı",
+      "description": "Yalanların arasından gerçeği çekip çıkardın. On kez.",
+      "condition": { "op": "gte", "field": "cleanSolves", "value": 10 }
+    },
+    {
+      "id": "clean_25",
+      "title": "Saf Zihin",
+      "description": "Yirmi beş ipuçsuz çözüm. Zihnin bir makine gibi.",
+      "condition": { "op": "gte", "field": "cleanSolves", "value": 25 }
+    },
+    {
+      "id": "file_1",
+      "title": "Müze Dedektifi",
+      "description": "Altın Kelebek Müzesi vakası kapandı.",
+      "condition": { "op": "fileCompleted", "fileNumber": 1 }
+    },
+    {
+      "id": "file_2",
+      "title": "Park Dedektifi",
+      "description": "Parkta bulunan gizem çözüldü.",
+      "condition": { "op": "fileCompleted", "fileNumber": 2 }
+    },
+    {
+      "id": "file_3",
+      "title": "Ofis Dedektifi",
+      "description": "Ofis gizemi aydınlatıldı.",
+      "condition": { "op": "fileCompleted", "fileNumber": 3 }
+    },
+    {
+      "id": "file_4",
+      "title": "Miras Dedektifi",
+      "description": "Kayıp vasiyetname bulundu.",
+      "condition": { "op": "fileCompleted", "fileNumber": 4 }
     },
     {
       "id": "night_owl",
       "title": "Gece Kuşu",
-      "description": "Karanlık bastığında zihin daha da keskinleşti."
-    },
-    {
-      "id": "truth_seeker",
-      "title": "Gerçek Avcısı",
-      "description": "Yalanların arasından gerçeği çekip çıkardın."
-    },
-    {
-      "id": "speed_runner",
-      "title": "Hızlı Zihin",
-      "description": "Zamanla yarıştın ve kazandın."
-    },
-    {
-      "id": "master_detective",
-      "title": "Usta Dedektif",
-      "description": "Artık hiçbir şey gözünden kaçmıyor."
+      "description": "Karanlık bastığında zihin daha da keskinleşti.",
+      "condition": { "op": "nightTime" }
     }
   ]
 }
