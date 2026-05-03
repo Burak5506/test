@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "evidenceIcons": {
+    "physical":     "https://raw.githubusercontent.com/Burak5506/test/main/icons/physical.png",
+    "biological":   "https://raw.githubusercontent.com/Burak5506/test/main/icons/biological.png",
+    "digital":      "https://raw.githubusercontent.com/Burak5506/test/main/icons/digital.png",
+    "trace":        "https://raw.githubusercontent.com/Burak5506/test/main/icons/trace.png",
+    "document":     "https://raw.githubusercontent.com/Burak5506/test/main/icons/document.png",
+    "witness":      "https://raw.githubusercontent.com/Burak5506/test/main/icons/witness.png",
+    "visual":       "https://raw.githubusercontent.com/Burak5506/test/main/icons/visual.png",
+    "environmental":"https://raw.githubusercontent.com/Burak5506/test/main/icons/environmental.png"
+  }
+}
