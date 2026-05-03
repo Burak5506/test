@@ -1,13 +1,13 @@
 {
-  "version": 1,
+  "version": "1.0.0",
   "evidenceIcons": {
-    "physical":     "https://raw.githubusercontent.com/Burak5506/test/main/icons/physical.png",
-    "biological":   "https://raw.githubusercontent.com/Burak5506/test/main/icons/biological.png",
-    "digital":      "https://raw.githubusercontent.com/Burak5506/test/main/icons/digital.png",
-    "trace":        "https://raw.githubusercontent.com/Burak5506/test/main/icons/trace.png",
-    "document":     "https://raw.githubusercontent.com/Burak5506/test/main/icons/document.png",
-    "witness":      "https://raw.githubusercontent.com/Burak5506/test/main/icons/witness.png",
-    "visual":       "https://raw.githubusercontent.com/Burak5506/test/main/icons/visual.png",
-    "environmental":"https://raw.githubusercontent.com/Burak5506/test/main/icons/environmental.png"
+    "physical": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/physical.jpg",
+    "biological": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/biological.jpg",
+    "digital": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/digital.jpg",
+    "trace": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/trace.jpg",
+    "document": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/document.jpg",
+    "witness": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/witness.jpg",
+    "visual": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/visual.jpg",
+    "environmental": "https://raw.githubusercontent.com/Burak5506/test/main/evidence/environmental.jpg"
   }
 }
