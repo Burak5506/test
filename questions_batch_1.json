@@ -1,6 +1,6 @@
 {
   "batchIndex": 1,
-  "version": 6,
+  "version": 7,
   "events": {
     "1": [
       {
@@ -14,10 +14,10 @@
           "\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o {answer} aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\""
         ],
         "evidences": [
-          "🕐 Alarm sistemi gece 03:14'te devreye girdi.",
-          "📹 Güvenlik kamerası kaydında tablonun önünde 4 saniyelik görüntü kaybı mevcut.",
-          "🚪 Müzeye giriş kapılarında dışarıdan zorlama izi tespit edilmedi.",
-          "🔬 Mermerdeki kızıllık, henüz kurumamış taze bir iz niteliği taşıyor."
+          { "type": "digital", "icon": "🕐", "label": "SİSTEM KAYDI", "refCode": "DIGI_01", "text": "Alarm sistemi gece 03:14'te devreye girdi." },
+          { "type": "visual", "icon": "📹", "label": "KAMERA KAYDI", "refCode": "VISU_02", "text": "Güvenlik kamerası kaydında tablonun önünde 4 saniyelik görüntü kaybı mevcut." },
+          { "type": "physical", "icon": "🚪", "label": "FİZİKSEL KANIT", "refCode": "PHYS_03", "text": "Müzeye giriş kapılarında dışarıdan zorlama izi tespit edilmedi." },
+          { "type": "biological", "icon": "🔬", "label": "BİYOLOJİK ÖRNEK", "refCode": "BIOL_04", "text": "Mermerdeki kızıllık, henüz kurumamış taze bir iz niteliği taşıyor." }
         ],
         "answer": "leke",
         "hint": "Mermerdeki kızıllık, hırsızın biyolojik imzasıdır.",
@@ -34,10 +34,10 @@
           "Kapının hemen yanındaki bu net {answer}, bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\""
         ],
         "evidences": [
-          "📝 Masadaki not 'Saat 03:00' yazan kağıt, soygunun planlandığını gösteriyor.",
-          "🔦 Duvar yüzeyinde omuz hizasında toz birikintisi görülüyor.",
-          "👣 Kapı pervazının alt kısmında mermer tozuyla belirginleşmiş bir iz var.",
-          "📏 İzin derinliğine bakılırsa şüpheli 80-90 kg arasında bir ağırlığa sahip."
+          { "type": "document", "icon": "📝", "label": "YAZILI BELGE", "refCode": "DOCU_01", "text": "Masadaki 'Saat 03:00' yazan kağıt, soygunun planlandığını gösteriyor." },
+          { "type": "physical", "icon": "🔦", "label": "FİZİKSEL KANIT", "refCode": "PHYS_02", "text": "Duvar yüzeyinde omuz hizasında toz birikintisi görülüyor." },
+          { "type": "trace", "icon": "👣", "label": "İZ ANALİZİ", "refCode": "TRAC_03", "text": "Kapı pervazının alt kısmında mermer tozuyla belirginleşmiş bir iz var." },
+          { "type": "biological", "icon": "📏", "label": "ADLİ ANALİZ", "refCode": "BIOL_04", "text": "İzin derinliğine bakılırsa şüpheli 80-90 kg arasında bir ağırlığa sahip." }
         ],
         "answer": "ayak izi",
         "hint": "Tozlu bir zeminde yürürken farkında olmadan yazdığın bir 'kimlik kartı' gibidir.",
@@ -53,10 +53,10 @@
           "\"Kağıtların üzerindeki bu beyaz {answer}, şüphelinin o anki panik dolu hareketini ve hangi belgeyi hedeflediğini gösterir.\""
         ],
         "evidences": [
-          "📂 Sergi planı ve güvenlik protokollerine ait 3 sayfa dosyadan eksik.",
-          "🤚 Beyaz toz izleri, masanın sağ köşesindeki dosya grubunda yoğunlaşıyor.",
-          "🔍 Mermer tozu analizi, müzede kullanılan Carrara mermeriyle birebir eşleşiyor.",
-          "🗂️ Eksik belgeler arasında müzenin gece güvenlik devriye rotası da bulunuyor."
+          { "type": "document", "icon": "📂", "label": "BELGE ANALİZİ", "refCode": "DOCU_01", "text": "Sergi planı ve güvenlik protokollerine ait 3 sayfa dosyadan eksik." },
+          { "type": "trace", "icon": "🤚", "label": "İZ ANALİZİ", "refCode": "TRAC_02", "text": "Beyaz toz izleri, masanın sağ köşesindeki dosya grubunda yoğunlaşıyor." },
+          { "type": "biological", "icon": "🔍", "label": "ADLİ ANALİZ", "refCode": "BIOL_03", "text": "Mermer tozu analizi, müzede kullanılan Carrara mermeriyle birebir eşleşiyor." },
+          { "type": "document", "icon": "🗂️", "label": "GİZLİ BELGE", "refCode": "DOCU_04", "text": "Eksik belgeler arasında müzenin gece güvenlik devriye rotası da bulunuyor." }
         ],
         "answer": "Parmak İzi",
         "hint": "İpucu: Kayıp belgeler olayın merkezinde.",
@@ -72,10 +72,10 @@
           "Belli ki hırsız camı kırarken kıyafetinden bir parça bırakmış.\""
         ],
         "evidences": [
-          "🔨 Cam kırılma yönü içeriden dışarıya değil; dışarıdan içeriye doğru.",
-          "🧵 Cam kırıklarının arasındaki koyu renkli lif, sentetik kumaşa ait.",
-          "📐 Kırık cam parçaları vitrin merkezinden 1.5 metreye kadar saçılmış.",
-          "🧪 Lifin rengi ve dokusu, standart bütçe düzeyinde bir iş elbisesiyle uyuşuyor."
+          { "type": "physical", "icon": "🔨", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Cam kırılma yönü içeriden dışarıya değil; dışarıdan içeriye doğru." },
+          { "type": "biological", "icon": "🧵", "label": "MATERYAL ANALİZİ", "refCode": "BIOL_02", "text": "Cam kırıklarının arasındaki koyu renkli lif, sentetik kumaşa ait." },
+          { "type": "trace", "icon": "📐", "label": "İZ ANALİZİ", "refCode": "TRAC_03", "text": "Kırık cam parçaları vitrin merkezinden 1.5 metreye kadar saçılmış." },
+          { "type": "biological", "icon": "🧪", "label": "LABORATUVAR", "refCode": "BIOL_04", "text": "Lifin rengi ve dokusu, standart bütçe düzeyinde bir iş elbisesiyle uyuşuyor." }
         ],
         "answer": "kumaş",
         "hint": "Pamuk, yün veya ipekten elde edilen, giysilerimizin ana maddesi olan dokuma.",
@@ -90,10 +90,10 @@
           "\"Bu {answer}, sadece bir kaçış aksiliğini değil; suçlunun dengesini kaybedip aceleyle uzaklaştığını gösteriyor.\""
         ],
         "evidences": [
-          "👟 Ayakkabı 43 numara, siyah deri — ucuz bir model.",
-          "🔬 Tabanında müzeye özgü mermer tozu ve dışarıdan taşınan kum karışımı var.",
-          "📍 Ayakkabının bulunduğu konum, acil çıkış kapısına tam 3 metre mesafede.",
-          "🧵 İç astarında silinmiş bir isme ait birkaç harf seçilebiliyor: '...RAN...'"
+          { "type": "physical", "icon": "👟", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Ayakkabı 43 numara, siyah deri — ucuz bir model." },
+          { "type": "biological", "icon": "🔬", "label": "ADLİ ANALİZ", "refCode": "BIOL_02", "text": "Tabanında müzeye özgü mermer tozu ve dışarıdan taşınan kum karışımı var." },
+          { "type": "environmental", "icon": "📍", "label": "KONUM VERİSİ", "refCode": "ENVI_03", "text": "Ayakkabının bulunduğu konum, acil çıkış kapısına tam 3 metre mesafede." },
+          { "type": "witness", "icon": "🧵", "label": "TANIK İFADESİ", "refCode": "WITN_04", "text": "İç astarında silinmiş bir isme ait birkaç harf seçilebiliyor: '...RAN...'" }
         ],
         "answer": "ayakkabı",
         "hint": "Adımların sessiz ortağıdır. Tabanındaki desenlerle geçtiği her yere imzasını atar.",
@@ -108,10 +108,10 @@
           "\"Mermer tozuyla belirginleşen bu {answer} bilgisi, hırsızın duvara yaslandığı temas noktasını ve geniş vücut yapısını tamamen ortaya koyuyor.\""
         ],
         "evidences": [
-          "📏 İzin genişliği yaklaşık 45 cm — ortalamanın üzerinde geniş bir omuz yapısına işaret ediyor.",
-          "🧥 İzde ince bir kumaş dokusu baskısı var; muhtemelen yün karışımlı bir ceket.",
-          "📐 İzin yerden yüksekliği 172-180 cm boyuna sahip birini işaret ediyor.",
-          "🔬 İzin kenarlarında cam yüzeyine sürülen krem veya losyon kalıntısına rastlandı."
+          { "type": "trace", "icon": "📏", "label": "İZ ANALİZİ", "refCode": "TRAC_01", "text": "İzin genişliği yaklaşık 45 cm — ortalamanın üzerinde geniş bir omuz yapısına işaret ediyor." },
+          { "type": "biological", "icon": "🧥", "label": "MATERYAL ANALİZİ", "refCode": "BIOL_02", "text": "İzde ince bir kumaş dokusu baskısı var; muhtemelen yün karışımlı bir ceket." },
+          { "type": "trace", "icon": "📐", "label": "ADLİ ÖLÇÜM", "refCode": "TRAC_03", "text": "İzin yerden yüksekliği 172-180 cm boyuna sahip birini işaret ediyor." },
+          { "type": "biological", "icon": "🔬", "label": "LABORATUVAR", "refCode": "BIOL_04", "text": "İzin kenarlarında cam yüzeyine sürülen krem veya losyon kalıntısına rastlandı." }
         ],
         "answer": "OMUZ İZİ",
         "hint": "Hırsız o gece panikle duvara yaslandığında, ceketinin bu kısmı mermer tozuna bulanmış bir iz bırakmıştır.",
@@ -126,10 +126,10 @@
           "\"Bu gölgeyle bağlantılı olan ve mermer tozlarının havada uçuştuğu noktada beliren gizemli {answer}, hırsızın tam olarak hangi rotayı izlediğini kanıtlıyor.\""
         ],
         "evidences": [
-          "📹 Kamera kayıtlarında 03:14-03:18 arası 4 dakikalık görüntü kaybı var.",
-          "💡 Parlama, tablonun 80 cm önünde ve zeminden 20 cm yükseklikte oluşmuş.",
-          "🗺️ Karaltının hareketi, müzenin güneydoğu çıkışına doğru ilerliyor.",
-          "⚡ O anki parlamayı güvenlik ekibi görmüş ama sebebini açıklayamamış."
+          { "type": "visual", "icon": "📹", "label": "KAMERA KAYDI", "refCode": "VISU_01", "text": "Kamera kayıtlarında 03:14-03:18 arası 4 dakikalık görüntü kaybı var." },
+          { "type": "physical", "icon": "💡", "label": "FİZİKSEL KANIT", "refCode": "PHYS_02", "text": "Parlama, tablonun 80 cm önünde ve zeminden 20 cm yükseklikte oluşmuş." },
+          { "type": "environmental", "icon": "🗺️", "label": "KONUM VERİSİ", "refCode": "ENVI_03", "text": "Karaltının hareketi, müzenin güneydoğu çıkışına doğru ilerliyor." },
+          { "type": "witness", "icon": "⚡", "label": "TANIK İFADESİ", "refCode": "WITN_04", "text": "O anki parlamayı güvenlik ekibi görmüş ama sebebini açıklayamamış." }
         ],
         "answer": "yansıma",
         "hint": "Işığın pürüzsüz bir yüzeye çarpıp geri dönmesiyle oluşur.",
@@ -144,10 +144,10 @@
           "\"Bu karmaşık {answer}, hırsızın müze içindeki ana kasaya ulaşmak için kullandığı gizli düzeneği ve soygunun önceden planlanmış derinliğini gösteriyor.\""
         ],
         "evidences": [
-          "🔢 Sembollerin bir kısmı standart ASCII karakterlerine benziyor ama çoğu tanımsız.",
-          "✍️ Yazı sağ eliyle yazılmış — baskı açısı ve kalem yönünden anlaşılıyor.",
-          "💡 Kağıdın arkasında aynı el yazısıyla 'K-7' notu var.",
-          "🧪 Mürekkep analizi, kağıdın üretilmesiyle yazının yazılması arasında en fazla 6 saatlik fark olduğunu gösteriyor."
+          { "type": "digital", "icon": "🔢", "label": "DİJİTAL ANALİZ", "refCode": "DIGI_01", "text": "Sembollerin bir kısmı standart ASCII karakterlerine benziyor ama çoğu tanımsız." },
+          { "type": "document", "icon": "✍️", "label": "YAZI ANALİZİ", "refCode": "DOCU_02", "text": "Yazı sağ eliyle yazılmış — baskı açısı ve kalem yönünden anlaşılıyor." },
+          { "type": "document", "icon": "💡", "label": "GİZLİ NOT", "refCode": "DOCU_03", "text": "Kağıdın arkasında aynı el yazısıyla 'K-7' notu var." },
+          { "type": "biological", "icon": "🧪", "label": "LABORATUVAR", "refCode": "BIOL_04", "text": "Mürekkep analizi, kağıdın üretilmesiyle yazının yazılması arasında en fazla 6 saatlik fark olduğunu gösteriyor." }
         ],
         "answer": "Şifre",
         "hint": "Bilgiyi gizlemek için kullanılan özel karakterler dizisidir.",
@@ -163,10 +163,10 @@
           "\"Bu ipucu, hırsızın asıl hedefinin tablodan çok daha fazlası olduğunu kanıtlıyor.\""
         ],
         "evidences": [
-          "🔑 Anahtar standart bir model değil — özel üretim, dişleri elle törpülenmiş.",
-          "🏛️ Bodrum katındaki arşiv odası son 6 ayda resmi kayıtlara göre hiç açılmamış.",
-          "🔬 Anahtarın yüzeyinde müzeye ait olmayan bir yağ kalıntısı var.",
-          "📋 Arşiv odasında 1920'lere ait müze kurucusuna ait gizli belgeler bulunuyor."
+          { "type": "physical", "icon": "🔑", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Anahtar standart bir model değil — özel üretim, dişleri elle törpülenmiş." },
+          { "type": "document", "icon": "🏛️", "label": "ARŞİV KAYDI", "refCode": "DOCU_02", "text": "Bodrum katındaki arşiv odası son 6 ayda resmi kayıtlara göre hiç açılmamış." },
+          { "type": "biological", "icon": "🔬", "label": "LABORATUVAR", "refCode": "BIOL_03", "text": "Anahtarın yüzeyinde müzeye ait olmayan bir yağ kalıntısı var." },
+          { "type": "document", "icon": "📋", "label": "GİZLİ BELGE", "refCode": "DOCU_04", "text": "Arşiv odasında 1920'lere ait müze kurucusuna ait gizli belgeler bulunuyor." }
         ],
         "answer": "anahtar",
         "hint": "Kilitli kapıların tek dilidir; metal gövdesi üzerindeki girinti ve çıkıntılarla sırları koruyan mekanizmayı harekete geçirir.",
@@ -183,9 +183,9 @@
           "\"Hangi ipucu olayı çözmek için kritik? Bu {answer} içeriği her şeyi değiştirebilir.\""
         ],
         "evidences": [
-          "🎒 Çanta parkın kuzey girişindeki bankın altında bulundu.",
-          "🪪 Kimlik üzerindeki fotoğraf yırtılmış.",
-          "✉️ Zarf mühürlü ve üzerinde tarih damgası yok."
+          { "type": "environmental", "icon": "🎒", "label": "KONUM VERİSİ", "refCode": "ENVI_01", "text": "Çanta parkın kuzey girişindeki bankın altında bulundu." },
+          { "type": "document", "icon": "🪪", "label": "KİMLİK BELGESİ", "refCode": "DOCU_02", "text": "Kimlik üzerindeki fotoğraf yırtılmış." },
+          { "type": "document", "icon": "✉️", "label": "YAZILI BELGE", "refCode": "DOCU_03", "text": "Zarf mühürlü ve üzerinde tarih damgası yok." }
         ],
         "answer": "mektup",
         "hint": "Mektup olayla ilgili yönlendirme içeriyor.",
@@ -200,9 +200,9 @@
           "\"Bu {answer} bize şüphelinin ağırlığı ve yürüyüş tarzı hakkında önemli ipuçları veriyor.\""
         ],
         "evidences": [
-          "📏 İzin derinliği 1.5 cm — kişi koşarken bırakmış.",
-          "👟 Taban deseni spor ayakkabıya ait.",
-          "🧭 İzler kuzeydoğu yönünde devam ediyor."
+          { "type": "trace", "icon": "📏", "label": "İZ ANALİZİ", "refCode": "TRAC_01", "text": "İzin derinliği 1.5 cm — kişi koşarken bırakmış." },
+          { "type": "trace", "icon": "👟", "label": "AYAKKABI İZİ", "refCode": "TRAC_02", "text": "Taban deseni spor ayakkabıya ait." },
+          { "type": "environmental", "icon": "🧭", "label": "KONUM VERİSİ", "refCode": "ENVI_03", "text": "İzler kuzeydoğu yönünde devam ediyor." }
         ],
         "answer": "ayak izi",
         "hint": "Ayakkabı izinin derinliği kişinin ağırlığı hakkında bilgi verir.",
@@ -217,9 +217,9 @@
           "\"Olayla ilgili en önemli fiziksel {answer} bu — parmak izlerini saklıyor ama kendisi bir iz bırakmış.\""
         ],
         "evidences": [
-          "🧤 Siyah lateks malzeme — profesyonel kullanıma yönelik.",
-          "✂️ Parmak ucunda küçük bir yırtık var.",
-          "🔬 İç yüzeyinde kıl kalıntısı tespit edildi."
+          { "type": "physical", "icon": "🧤", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Siyah lateks malzeme — profesyonel kullanıma yönelik." },
+          { "type": "physical", "icon": "✂️", "label": "HASAR ANALİZİ", "refCode": "PHYS_02", "text": "Parmak ucunda küçük bir yırtık var." },
+          { "type": "biological", "icon": "🔬", "label": "LABORATUVAR", "refCode": "BIOL_03", "text": "İç yüzeyinde kıl kalıntısı tespit edildi." }
         ],
         "answer": "eldiven",
         "hint": "Olay yerinde bırakılan fiziksel iz.",
@@ -236,9 +236,9 @@
           "\"En önemli ipucu bu ekrandaki {answer} — içindeki bilgi sizi doğrudan suçluya götürebilir.\""
         ],
         "evidences": [
-          "💻 Bilgisayar kasası dışarıdan fiziksel bir darbe ile kırılmış.",
-          "📧 Son gönderilen e-posta 03:22'de bilinmeyen bir adrese iletilmiş.",
-          "🔐 Şifre 6 haneli ve ekranın sol köşesinde kısmen görünür."
+          { "type": "physical", "icon": "💻", "label": "FİZİKSEL HASAR", "refCode": "PHYS_01", "text": "Bilgisayar kasası dışarıdan fiziksel bir darbe ile kırılmış." },
+          { "type": "digital", "icon": "📧", "label": "DİJİTAL İZ", "refCode": "DIGI_02", "text": "Son gönderilen e-posta 03:22'de bilinmeyen bir adrese iletilmiş." },
+          { "type": "digital", "icon": "🔐", "label": "ŞİFRE ANALİZİ", "refCode": "DIGI_03", "text": "Şifre 6 haneli ve ekranın sol köşesinde kısmen görünür." }
         ],
         "answer": "mesaj",
         "hint": "Şifreli mesaj olayın çözümünde anahtar.",
@@ -253,9 +253,9 @@
           "\"Bu {answer} bize kutunun kaç kişi tarafından taşındığını ve hangi yöne götürüldüğünü söylüyor.\""
         ],
         "evidences": [
-          "📦 Kutu son envanter sayımında kayıt altına alınmıştı — 3 gün önce.",
-          "👣 İki farklı ayakkabı numarasına ait iz var: 41 ve 44.",
-          "🚪 Depo kapısının kilidi anahtar yerine bir tel ile açılmış."
+          { "type": "document", "icon": "📦", "label": "ENVANTER KAYDI", "refCode": "DOCU_01", "text": "Kutu son envanter sayımında kayıt altına alınmıştı — 3 gün önce." },
+          { "type": "trace", "icon": "👣", "label": "İZ ANALİZİ", "refCode": "TRAC_02", "text": "İki farklı ayakkabı numarasına ait iz var: 41 ve 44." },
+          { "type": "physical", "icon": "🚪", "label": "FİZİKSEL KANIT", "refCode": "PHYS_03", "text": "Depo kapısının kilidi anahtar yerine bir tel ile açılmış." }
         ],
         "answer": "ayak izi",
         "hint": "Ayak izleri şüphelinin hareketini gösteriyor.",
@@ -270,9 +270,9 @@
           "\"Bu {answer} parçaları, kırılmanın nerede başladığını ve suçlunun sonra neden parçaları topladığını ortaya koyuyor.\""
         ],
         "evidences": [
-          "🥃 Bardak yüksek kalite kristal — ofise ait değil, dışarıdan getirilmiş.",
-          "🔬 Parçaların üzerinde iki farklı parmak izine ait desen var.",
-          "📍 En büyük parça lavabonun altında, küçükler ise 2 metre uzakta bulundu."
+          { "type": "physical", "icon": "🥃", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Bardak yüksek kalite kristal — ofise ait değil, dışarıdan getirilmiş." },
+          { "type": "trace", "icon": "🔬", "label": "PARMAK İZİ", "refCode": "TRAC_02", "text": "Parçaların üzerinde iki farklı parmak izine ait desen var." },
+          { "type": "environmental", "icon": "📍", "label": "KONUM VERİSİ", "refCode": "ENVI_03", "text": "En büyük parça lavabonun altında, küçükler ise 2 metre uzakta bulundu." }
         ],
         "answer": "cam",
         "hint": "Kırık cam parçaları şüphelinin izini gösteriyor.",
@@ -290,10 +290,10 @@
           "\"Bu {answer} bize suçlunun kimliğine dair ilk somut ipucunu veriyor.\""
         ],
         "evidences": [
-          "🌧️ Fırtına gece 22:00'de başladı — hırsız bunu bilerek seçmiş olabilir.",
-          "🔒 Çekmece kilidi törpü veya benzer bir aletle zorlanmış.",
-          "📖 Ajandanın içindeki isim: 'Kemal Aydın' — Demirsoy ailesiyle bağlantısı araştırılıyor.",
-          "🪑 Sandalye ters devrilmiş — hırsız kaçarken çarpmış."
+          { "type": "environmental", "icon": "🌧️", "label": "ÇEVRE VERİSİ", "refCode": "ENVI_01", "text": "Fırtına gece 22:00'de başladı — hırsız bunu bilerek seçmiş olabilir." },
+          { "type": "physical", "icon": "🔒", "label": "FİZİKSEL KANIT", "refCode": "PHYS_02", "text": "Çekmece kilidi törpü veya benzer bir aletle zorlanmış." },
+          { "type": "document", "icon": "📖", "label": "KİMLİK BİLGİSİ", "refCode": "DOCU_03", "text": "Ajandanın içindeki isim: 'Kemal Aydın' — Demirsoy ailesiyle bağlantısı araştırılıyor." },
+          { "type": "trace", "icon": "🪑", "label": "İZ ANALİZİ", "refCode": "TRAC_04", "text": "Sandalye ters devrilmiş — hırsız kaçarken çarpmış." }
         ],
         "answer": "Ajanda",
         "hint": "İçinde kartların, paraların ve bazen de sahibinin kimliğinin bulunduğu deri aksesuar.",
@@ -308,10 +308,10 @@
           "\"Yağmur şiddetlenmeden önce bu {answer} parıltısının peşinden gitmem gerekiyordu.\""
         ],
         "evidences": [
-          "🚪 Balkon kapısının kilidi içeriden değil, dışarıdan açılmış.",
-          "🌿 Balkon basamaklarında taze çamur izi var — ayakkabı izi belirgin.",
-          "🔦 Parıltı kulübeye yaklaştıkça kesildi — birileri içeri girmiş olabilir.",
-          "🌧️ Yağmur iz bırakmadan önce hareket etmek zorundaydım."
+          { "type": "physical", "icon": "🚪", "label": "FİZİKSEL KANIT", "refCode": "PHYS_01", "text": "Balkon kapısının kilidi içeriden değil, dışarıdan açılmış." },
+          { "type": "trace", "icon": "🌿", "label": "İZ ANALİZİ", "refCode": "TRAC_02", "text": "Balkon basamaklarında taze çamur izi var — ayakkabı izi belirgin." },
+          { "type": "witness", "icon": "🔦", "label": "GÖZLEM", "refCode": "WITN_03", "text": "Parıltı kulübeye yaklaştıkça kesildi — birileri içeri girmiş olabilir." },
+          { "type": "environmental", "icon": "🌧️", "label": "HAVA DURUMU", "refCode": "ENVI_04", "text": "Yağmur iz bırakmadan önce hareket etmek zorundaydım." }
         ],
         "answer": "fener",
         "hint": "Karanlıkta yolunu bulmak isteyen birinin etrafı aydınlatmak için kullandığı araç.",
@@ -327,10 +327,10 @@
           "\"Bu {answer}, profesyonel bir soyguncuyla karşı karşıya olduğumuzun ilk işaretiydi.\""
         ],
         "evidences": [
-          "👴 Bahçıvan 34 yıldır bu ailede çalışıyor — güvenilir bir tanık.",
-          "⚡ Şimşek tam o an çakmasaydı yabancının yüzü hiç görülmeyecekti.",
-          "📐 Bahçıvana göre karaltı yaklaşık 180 cm boyunda ve geniş omuzluydu.",
-          "🌑 Karaltı kulübeye yaklaştıktan sonra malikânenin arka kapısına yöneldi."
+          { "type": "witness", "icon": "👴", "label": "TANIK İFADESİ", "refCode": "WITN_01", "text": "Bahçıvan 34 yıldır bu ailede çalışıyor — güvenilir bir tanık." },
+          { "type": "environmental", "icon": "⚡", "label": "ÇEVRE VERİSİ", "refCode": "ENVI_02", "text": "Şimşek tam o an çakmasaydı yabancının yüzü hiç görülmeyecekti." },
+          { "type": "witness", "icon": "📐", "label": "TANIK TANIMI", "refCode": "WITN_03", "text": "Bahçıvana göre karaltı yaklaşık 180 cm boyunda ve geniş omuzluydu." },
+          { "type": "environmental", "icon": "🌑", "label": "HAREKET VERİSİ", "refCode": "ENVI_04", "text": "Karaltı kulübeye yaklaştıktan sonra malikânenin arka kapısına yöneldi." }
         ],
         "answer": "maske",
         "hint": "Birinin yüzünü tanınmaz hale getirmek için taktığı örtü veya nesne.",
@@ -345,10 +345,10 @@
           "\"Bu buruşuk {answer} parçası, çalınan vasiyetnamenin aslında sahte olduğunu kanıtlıyordu.\""
         ],
         "evidences": [
-          "📚 Kitaplık son 10 yıldır hiç hareket ettirilmemiş — bu gece biri kaydırmış.",
-          "🕯️ Basamaklarda taze mum izi var — elektrik kullanmak istememişler.",
-          "📜 Sandıktaki belgeler 1887 tarihli — ailenin kuruluş dönemine ait.",
-          "🔏 Mühür Demirsoy ailesinin eski armasıyla eşleşiyor."
+          { "type": "trace", "icon": "📚", "label": "İZ ANALİZİ", "refCode": "TRAC_01", "text": "Kitaplık son 10 yıldır hiç hareket ettirilmemiş — bu gece biri kaydırmış." },
+          { "type": "physical", "icon": "🕯️", "label": "FİZİKSEL KANIT", "refCode": "PHYS_02", "text": "Basamaklarda taze mum izi var — elektrik kullanmak istememişler." },
+          { "type": "document", "icon": "📜", "label": "TARİHİ BELGE", "refCode": "DOCU_03", "text": "Sandıktaki belgeler 1887 tarihli — ailenin kuruluş dönemine ait." },
+          { "type": "document", "icon": "🔏", "label": "MÜHÜR ANALİZİ", "refCode": "DOCU_04", "text": "Mühür Demirsoy ailesinin eski armasıyla eşleşiyor." }
         ],
         "answer": "Kağıt",
         "hint": "Üzerine yazı yazılan, vasiyetnamelerin veya gizli notların hazırlandığı ince malzeme.",
@@ -364,10 +364,10 @@
           "\"Çekmeceyi açmak için kullandığı bu {answer}, gerçek suçluyu tüm aileye ilan etmeye yetmişti.\""
         ],
         "evidences": [
-          "👔 Yeğenin paltosunda taze çamur izi — bahçeden yeni gelmiş.",
-          "🔑 Metal nesnenin dişleri, çekmecedeki kilit izleriyle birebir eşleşiyor.",
-          "😰 Yeğen soruyu yanıtlamaya çalışırken sol elini cebinden çıkarmadı.",
-          "📋 Ajandasındaki 'Kemal Aydın' ismi, şüphelinin gizli ortağına işaret ediyor."
+          { "type": "trace", "icon": "👔", "label": "İZ ANALİZİ", "refCode": "TRAC_01", "text": "Yeğenin paltosunda taze çamur izi — bahçeden yeni gelmiş." },
+          { "type": "physical", "icon": "🔑", "label": "FİZİKSEL KANIT", "refCode": "PHYS_02", "text": "Metal nesnenin dişleri, çekmecedeki kilit izleriyle birebir eşleşiyor." },
+          { "type": "witness", "icon": "😰", "label": "DAVRANIŞ ANALİZİ", "refCode": "WITN_03", "text": "Yeğen soruyu yanıtlamaya çalışırken sol elini cebinden çıkarmadı." },
+          { "type": "document", "icon": "📋", "label": "BAĞLANTI BELGESİ", "refCode": "DOCU_04", "text": "Ajandasındaki 'Kemal Aydın' ismi, şüphelinin gizli ortağına işaret ediyor." }
         ],
         "answer": "Anahtar",
         "hint": "Kilitli kapıları veya çekmeceleri açmak için kullanılan metal araç.",
