@@ -1,12 +1,24 @@
 {
   "batchIndex": 1,
-  "version": 4,
+  "version": 5,
   "events": {
     "1": [
       {
         "title": "Alarm Var",
         "eventNumber": 1,
-        "text": "Müzenin ağır bronz kapıları, gece yarısı çalmaya başlayan keskin bir alarmla sarsıldı. Güvenlik ekipleri içeri daldığında hiçbir şeyin çalınmadığını gördü; ancak paha biçilemez tablonun tam önünde, ışıkta parlayan tuhaf, taze bir kızıllık vardı.\n\nDedektif, el fenerini yere tutarak fısıldadı:\n\n\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o {answer} aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\"",
+        "sentences": [
+          "Müzenin ağır bronz kapıları, gece yarısı çalmaya başlayan keskin bir alarmla sarsıldı.",
+          "Güvenlik ekipleri içeri daldığında hiçbir şeyin çalınmadığını gördü.",
+          "Ancak paha biçilemez tablonun tam önünde, ışıkta parlayan tuhaf, taze bir kızıllık vardı.",
+          "Dedektif, el fenerini yere tutarak fısıldadı:",
+          "\"Hırsız arkasında hiçbir parmak izi bırakmamış olabilir, ancak yerdeki o {answer} aslında bize her şeyi anlatıyor; çünkü o, silinmeye çalışılmış ama ruhu orada kalmış bir hatıradır.\""
+        ],
+        "evidences": [
+          "🕐 Alarm sistemi gece 03:14'te devreye girdi.",
+          "📹 Güvenlik kamerası kaydında tablonun önünde 4 saniyelik görüntü kaybı mevcut.",
+          "🚪 Müzeye giriş kapılarında dışarıdan zorlama izi tespit edilmedi.",
+          "🔬 Mermerdeki kızıllık, henüz kurumamış taze bir iz niteliği taşıyor."
+        ],
         "answer": "leke",
         "hint": "Mermerdeki kızıllık, hırsızın biyolojik imzasıdır.",
         "hintCost": 20
@@ -14,65 +26,150 @@
       {
         "title": "Loş Oda",
         "eventNumber": 2,
-        "text": "Müfettiş yerdeki kızıllığı incelerken, masanın üzerinde \"Saat 03:00\" yazan bir not buldu. Ancak asıl hata, hırsızın odayı terk ederken acele etmesiydi. Müfettiş fenerini kapının alt kısmına, kilidin hemen yanındaki omuz hizasındaki duvara tuttuğunda mermer tozuna bulanmış belirgin bir şekil gördü ve ekledi:\n\n\"Anlaşılan hırsız kapıyı açmakta zorlanınca duvardan destek alıp yüklenmiş. Kapının hemen yanındaki bu net {answer}, bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\"",
+        "sentences": [
+          "Müfettiş yerdeki kızıllığı incelerken, masanın üzerinde 'Saat 03:00' yazan bir not buldu.",
+          "Ancak asıl hata, hırsızın odayı terk ederken acele etmesiydi.",
+          "Müfettiş fenerini kapının alt kısmına, kilidin hemen yanındaki duvara tuttuğunda mermer tozuna bulanmış belirgin bir şekil gördü.",
+          "\"Anlaşılan hırsız kapıyı açmakta zorlanınca duvardan destek alıp yüklenmiş.",
+          "Kapının hemen yanındaki bu net {answer}, bize sadece bir ayakkabı numarasını değil; suçlunun boyunu ve o anki paniğini de anlatıyor.\""
+        ],
+        "evidences": [
+          "📝 Masadaki not 'Saat 03:00' yazan kağıt, soygunun planlandığını gösteriyor.",
+          "🔦 Duvar yüzeyinde omuz hizasında toz birikintisi görülüyor.",
+          "👣 Kapı pervazının alt kısmında mermer tozuyla belirginleşmiş bir iz var.",
+          "📏 İzin derinliğine bakılırsa şüpheli 80-90 kg arasında bir ağırlığa sahip."
+        ],
         "answer": "ayak izi",
-        "hint": "Tozlu bir zeminde yürürken farkında olmadan yazdığın bir 'kimlik kartı' gibidir. Suçlu odayı terk ederken acele etmiş ve kapının pervazına kendi imzasını mühürlemiş",
+        "hint": "Tozlu bir zeminde yürürken farkında olmadan yazdığın bir 'kimlik kartı' gibidir.",
         "hintCost": 20
       },
       {
         "title": "Kurbanın Masasındaki Karışıklık",
         "eventNumber": 3,
-        "text": "Müfettiş masanın üzerindeki dağınık evrakları toplarken, sergi planının üzerine bulaşmış beyaz bir leke fark etti. \"Kurbanın masasındaki dosya karışmış ve bazı belgeler eksik; ancak hırsızın duvardan bulaşan mermer tozlu elleriyle dosyalara dokunması büyük hata. Kağıtların üzerindeki bu beyaz {answer}, şüphelinin o anki panik dolu hareketini ve hangi belgeyi hedeflediğini gösterir.\"",
+        "sentences": [
+          "Müfettiş masanın üzerindeki dağınık evrakları toplarken, sergi planının üzerine bulaşmış beyaz bir leke fark etti.",
+          "Kurbanın masasındaki dosya karışmış ve bazı belgeler eksikti.",
+          "Hırsızın duvardan bulaşan mermer tozlu elleriyle dosyalara dokunması büyük bir hataydı.",
+          "\"Kağıtların üzerindeki bu beyaz {answer}, şüphelinin o anki panik dolu hareketini ve hangi belgeyi hedeflediğini gösterir.\""
+        ],
+        "evidences": [
+          "📂 Sergi planı ve güvenlik protokollerine ait 3 sayfa dosyadan eksik.",
+          "🤚 Beyaz toz izleri, masanın sağ köşesindeki dosya grubunda yoğunlaşıyor.",
+          "🔍 Mermer tozu analizi, müzede kullanılan Carrara mermeriyle birebir eşleşiyor.",
+          "🗂️ Eksik belgeler arasında müzenin gece güvenlik devriye rotası da bulunuyor."
+        ],
         "answer": "Parmak İzi",
-        "hint": "İpucu: Kayıp belgeler olayın merkezinde",
+        "hint": "İpucu: Kayıp belgeler olayın merkezinde.",
         "hintCost": 20
       },
       {
         "title": "Kırık Vitrin",
         "eventNumber": 4,
-        "text": "\"Müzedeki bir vitrin, sanki bir gövde darbesiyle aşağıdan yukarıya doğru çatlatılarak kırılmış. Yerlere saçılan cam kırıklarının arasındaki o ince, koyu renkli {answer}, olayı çözmede anahtar rol oynayabilir; belli ki hırsız camı kırarken kıyafetinden bir parça bırakmış.\"",
+        "sentences": [
+          "Müzedeki bir vitrin, sanki bir gövde darbesiyle aşağıdan yukarıya doğru çatlatılarak kırılmıştı.",
+          "Yerlere saçılan cam kırıklarının arasında ince, koyu renkli bir şey göze çarpıyordu.",
+          "\"Bu ince, koyu renkli {answer}, olayı çözmede anahtar rol oynayabilir.",
+          "Belli ki hırsız camı kırarken kıyafetinden bir parça bırakmış.\""
+        ],
+        "evidences": [
+          "🔨 Cam kırılma yönü içeriden dışarıya değil; dışarıdan içeriye doğru.",
+          "🧵 Cam kırıklarının arasındaki koyu renkli lif, sentetik kumaşa ait.",
+          "📐 Kırık cam parçaları vitrin merkezinden 1.5 metreye kadar saçılmış.",
+          "🧪 Lifin rengi ve dokusu, standart bütçe düzeyinde bir iş elbisesiyle uyuşuyor."
+        ],
         "answer": "kumaş",
-        "hint": "Pamuk, yün veya ipekten elde edilen, giysilerimizin ana maddesi olan dokuma",
+        "hint": "Pamuk, yün veya ipekten elde edilen, giysilerimizin ana maddesi olan dokuma.",
         "hintCost": 15
       },
       {
         "title": "Gizemli Ayakkabı",
         "eventNumber": 5,
-        "text": "\"Olay yerinde, tam da mermer tozlarının yoğun olduğu kapı eşiğinde tek bir ayakkabı bulundu. Duvar kenarındaki izle birebir örtüşen bu {answer}, sadece bir kaçış aksiliğini değil; suçlunun dengesini kaybedip aceleyle uzaklaştığını gösteriyor.\"",
+        "sentences": [
+          "Olay yerinde, tam da mermer tozlarının yoğun olduğu kapı eşiğinde tek bir ayakkabı bulundu.",
+          "Duvar kenarındaki izle birebir örtüşen bu nesne dikkat çekiciydi.",
+          "\"Bu {answer}, sadece bir kaçış aksiliğini değil; suçlunun dengesini kaybedip aceleyle uzaklaştığını gösteriyor.\""
+        ],
+        "evidences": [
+          "👟 Ayakkabı 43 numara, siyah deri — ucuz bir model.",
+          "🔬 Tabanında müzeye özgü mermer tozu ve dışarıdan taşınan kum karışımı var.",
+          "📍 Ayakkabının bulunduğu konum, acil çıkış kapısına tam 3 metre mesafede.",
+          "🧵 İç astarında silinmiş bir isme ait birkaç harf seçilebiliyor: '...RAN...'"
+        ],
         "answer": "ayakkabı",
-        "hint": "Adımların sessiz ortağıdır. Tabanındaki desenlerle geçtiği her yere imzasını atar",
+        "hint": "Adımların sessiz ortağıdır. Tabanındaki desenlerle geçtiği her yere imzasını atar.",
         "hintCost": 15
       },
       {
         "title": "Gövde Teması",
         "eventNumber": 6,
-        "text": "\"Vitrin camında, tozlu yüzeyin üzerine kazınmış gibi duran geniş ve kavisli bir hat fark edildi. Şüpheliyi tespit etmede, bu mermer tozuyla belirginleşen {answer} bilgisi kritik önemdedir; çünkü bu iz, hırsızın duvara yaslandığı o anki temas noktasıyla ve suçlunun geniş vücut yapısıyla tamamen uyuşuyor.\"",
+        "sentences": [
+          "Vitrin camında, tozlu yüzeyin üzerine kazınmış gibi duran geniş ve kavisli bir hat fark edildi.",
+          "Şüpheliyi tespit etmede bu iz kritik önemdeydi.",
+          "\"Mermer tozuyla belirginleşen bu {answer} bilgisi, hırsızın duvara yaslandığı temas noktasını ve geniş vücut yapısını tamamen ortaya koyuyor.\""
+        ],
+        "evidences": [
+          "📏 İzin genişliği yaklaşık 45 cm — ortalamanın üzerinde geniş bir omuz yapısına işaret ediyor.",
+          "🧥 İzde ince bir kumaş dokusu baskısı var; muhtemelen yün karışımlı bir ceket.",
+          "📐 İzin yerden yüksekliği 172-180 cm boyuna sahip birini işaret ediyor.",
+          "🔬 İzin kenarlarında cam yüzeyine sürülen krem veya losyon kalıntısına rastlandı."
+        ],
         "answer": "OMUZ İZİ",
-        "hint": "Hırsız o gece panikle duvara yaslandığında, ceketinin bu kısmı mermer tozuna bulanmış ve duvarda suçlunun kalıbını ele veren geniş bir hat bırakmıştır",
+        "hint": "Hırsız o gece panikle duvara yaslandığında, ceketinin bu kısmı mermer tozuna bulanmış bir iz bırakmıştır.",
         "hintCost": 20
       },
       {
         "title": "Kameradan İzleme",
         "eventNumber": 7,
-        "text": "\"Güvenlik kameralarına bakıldığında, koridorun sonunda titrek bir karaltı hareket ediyor. Müfettiş, paha biçilemez tablonun önündeki o taze kızıllığa el fenerini tuttuğunda, cilalı zeminde anlık bir parlama fark etti. Bu gölgeyle bağlantılı olan ve mermer tozlarının havada uçuştuğu o noktada beliren gizemli {answer}, hırsızın alarm çalmadan saniyeler önce tam olarak hangi rotayı izlediğini ve o anki silüetini kanıtlıyor.\"",
+        "sentences": [
+          "Güvenlik kameralarına bakıldığında, koridorun sonunda titrek bir karaltı hareket ediyordu.",
+          "Müfettiş, paha biçilemez tablonun önündeki taze kızıllığa el fenerini tuttuğunda cilalı zeminde anlık bir parlama fark etti.",
+          "\"Bu gölgeyle bağlantılı olan ve mermer tozlarının havada uçuştuğu noktada beliren gizemli {answer}, hırsızın tam olarak hangi rotayı izlediğini kanıtlıyor.\""
+        ],
+        "evidences": [
+          "📹 Kamera kayıtlarında 03:14-03:18 arası 4 dakikalık görüntü kaybı var.",
+          "💡 Parlama, tablonun 80 cm önünde ve zeminden 20 cm yükseklikte oluşmuş.",
+          "🗺️ Karaltının hareketi, müzenin güneydoğu çıkışına doğru ilerliyor.",
+          "⚡ O anki parlamayı güvenlik ekibi görmüş ama sebebini açıklayamamış."
+        ],
         "answer": "yansıma",
-        "hint": "Işığın pürüzsüz bir yüzeye çarpıp geri dönmesiyle oluşur",
+        "hint": "Işığın pürüzsüz bir yüzeye çarpıp geri dönmesiyle oluşur.",
         "hintCost": 15
       },
       {
         "title": "Şifreli Not",
         "eventNumber": 8,
-        "text": "\"Olay yerinde, masanın üzerine bırakılmış 'Saat 03:00' yazan kağıdın hemen arkasında, aceleyle karalanmış tuhaf semboller bulundu. Müfettiş, el fenerini kağıdın yüzeyine eğik bir açıyla tuttuğunda, mermer tozlu parmakların kağıda bıraktığı baskıdan dolayı kağıtta oluşan çöküntüleri fark etti. Bu karmaşık {answer}, hırsızın müze içindeki paha biçilemez ana kasaya ulaşmak için kullandığı gizli düzeneği ve soygunun önceden planlanmış derinliğini gösteriyor.\"",
+        "sentences": [
+          "Olay yerinde, masanın üzerine bırakılmış 'Saat 03:00' yazan kağıdın hemen arkasında, aceleyle karalanmış tuhaf semboller bulundu.",
+          "Müfettiş, el fenerini kağıdın yüzeyine eğik bir açıyla tuttuğunda, mermer tozlu parmakların kağıda bıraktığı baskıdan dolayı oluşan çöküntüleri fark etti.",
+          "\"Bu karmaşık {answer}, hırsızın müze içindeki ana kasaya ulaşmak için kullandığı gizli düzeneği ve soygunun önceden planlanmış derinliğini gösteriyor.\""
+        ],
+        "evidences": [
+          "🔢 Sembollerin bir kısmı standart ASCII karakterlerine benziyor ama çoğu tanımsız.",
+          "✍️ Yazı sağ eliyle yazılmış — baskı açısı ve kalem yönünden anlaşılıyor.",
+          "💡 Kağıdın arkasında aynı el yazısıyla 'K-7' notu var.",
+          "🧪 Mürekkep analizi, kağıdın üretilmesiyle yazının yazılması arasında en fazla 6 saatlik fark olduğunu gösteriyor."
+        ],
         "answer": "Şifre",
-        "hint": "Bilgiyi gizlemek veya sadece yetkili kişilerin ulaşmasını sağlamak için kullanılan özel karakterler dizisidir",
+        "hint": "Bilgiyi gizlemek için kullanılan özel karakterler dizisidir.",
         "hintCost": 20
       },
       {
         "title": "Anahtar Bulundu",
         "eventNumber": 9,
-        "text": "\"Müfettiş, mermer tozuna bulanmış kapı kilidinin hemen dibinde, ışıltısıyla tozların arasından sıyrılan metal bir nesne fark etti. Hırsızın duvardan destek alıp kapıyı açmaya çalıştığı o panik anında cebinden düşürdüğü belli olan bu gümüş {answer}, aslında müzenin çıkışını değil; bodrum kattaki gizli arşiv odasının kapısını açıyordu. Bu ipucu, hırsızın asıl hedefinin tablodan çok daha fazlası olduğunu kanıtlıyor.\"",
+        "sentences": [
+          "Müfettiş, mermer tozuna bulanmış kapı kilidinin hemen dibinde, ışıltısıyla tozların arasından sıyrılan metal bir nesne fark etti.",
+          "Hırsızın duvardan destek alıp kapıyı açmaya çalıştığı o panik anında cebinden düşürdüğü belliydi.",
+          "Bu gümüş {answer}, aslında müzenin çıkışını değil; bodrum kattaki gizli arşiv odasının kapısını açıyordu.",
+          "\"Bu ipucu, hırsızın asıl hedefinin tablodan çok daha fazlası olduğunu kanıtlıyor.\""
+        ],
+        "evidences": [
+          "🔑 Anahtar standart bir model değil — özel üretim, dişleri elle törpülenmiş.",
+          "🏛️ Bodrum katındaki arşiv odası son 6 ayda resmi kayıtlara göre hiç açılmamış.",
+          "🔬 Anahtarın yüzeyinde müzeye ait olmayan bir yağ kalıntısı var.",
+          "📋 Arşiv odasında 1920'lere ait müze kurucusuna ait gizli belgeler bulunuyor."
+        ],
         "answer": "anahtar",
-        "hint": "Kilitli kapıların tek dilidir; metal gövdesi üzerindeki girinti ve çıkıntılarla sırları koruyan mekanizmayı harekete geçirir",
+        "hint": "Kilitli kapıların tek dilidir; metal gövdesi üzerindeki girinti ve çıkıntılarla sırları koruyan mekanizmayı harekete geçirir.",
         "hintCost": 20
       }
     ],
@@ -80,25 +177,52 @@
       {
         "title": "Gizemli Çanta",
         "eventNumber": 1,
-        "text": "Parkta bir çanta bulundu. Çantanın içinde kimlik ve bir mektup var. Hangi ipucu olayı çözmek için kritik?",
+        "sentences": [
+          "Parkta terk edilmiş bir çanta bulundu.",
+          "Çantanın içinde bir kimlik ve kapalı bir zarf vardı.",
+          "\"Hangi ipucu olayı çözmek için kritik? Bu {answer} içeriği her şeyi değiştirebilir.\""
+        ],
+        "evidences": [
+          "🎒 Çanta parkın kuzey girişindeki bankın altında bulundu.",
+          "🪪 Kimlik üzerindeki fotoğraf yırtılmış.",
+          "✉️ Zarf mühürlü ve üzerinde tarih damgası yok."
+        ],
         "answer": "mektup",
-        "hint": "İpucu: Mektup olayla ilgili yönlendirme içeriyor",
+        "hint": "Mektup olayla ilgili yönlendirme içeriyor.",
         "hintCost": 20
       },
       {
         "title": "Bahçe",
         "eventNumber": 2,
-        "text": "Şüphelinin ayakkabı izi parkta bulundu. İz, çim üzerinde derin ve belli belirsiz. Neye göre tahmin yürütürsünüz?",
+        "sentences": [
+          "Şüphelinin izi parkın çim alanında bulundu.",
+          "İz derin ve belirgin — aceleyle yapılmış bir kaçışın işareti.",
+          "\"Bu {answer} bize şüphelinin ağırlığı ve yürüyüş tarzı hakkında önemli ipuçları veriyor.\""
+        ],
+        "evidences": [
+          "📏 İzin derinliği 1.5 cm — kişi koşarken bırakmış.",
+          "👟 Taban deseni spor ayakkabıya ait.",
+          "🧭 İzler kuzeydoğu yönünde devam ediyor."
+        ],
         "answer": "ayak izi",
-        "hint": "İpucu: Ayakkabı izinin derinliği kişinin ağırlığı hakkında bilgi verir",
+        "hint": "Ayakkabı izinin derinliği kişinin ağırlığı hakkında bilgi verir.",
         "hintCost": 20
       },
       {
         "title": "Banka",
         "eventNumber": 3,
-        "text": "Bir banka kasası açılmış. Paranın yanında bir eldiven bulundu. Olayla ilgili en önemli ipucu nedir?",
+        "sentences": [
+          "Bir banka kasası açılmış ve para çalınmıştı.",
+          "Kasanın yanında yere atılmış bir şey bulundu.",
+          "\"Olayla ilgili en önemli fiziksel {answer} bu — parmak izlerini saklıyor ama kendisi bir iz bırakmış.\""
+        ],
+        "evidences": [
+          "🧤 Siyah lateks malzeme — profesyonel kullanıma yönelik.",
+          "✂️ Parmak ucunda küçük bir yırtık var.",
+          "🔬 İç yüzeyinde kıl kalıntısı tespit edildi."
+        ],
         "answer": "eldiven",
-        "hint": "İpucu: Olay yerinde bırakılan fiziksel iz eldiven",
+        "hint": "Olay yerinde bırakılan fiziksel iz.",
         "hintCost": 20
       }
     ],
@@ -106,25 +230,52 @@
       {
         "title": "Anahtar",
         "eventNumber": 1,
-        "text": "Ofiste bir bilgisayar kırılmış bulundu. Ekranda şifreli bir mesaj var. En önemli ipucu hangisidir?",
+        "sentences": [
+          "Ofiste bir bilgisayar kırılmış bulundu.",
+          "Ekranda yarım kalmış şifreli bir yazışma görünüyordu.",
+          "\"En önemli ipucu bu ekrandaki {answer} — içindeki bilgi sizi doğrudan suçluya götürebilir.\""
+        ],
+        "evidences": [
+          "💻 Bilgisayar kasası dışarıdan fiziksel bir darbe ile kırılmış.",
+          "📧 Son gönderilen e-posta 03:22'de bilinmeyen bir adrese iletilmiş.",
+          "🔐 Şifre 6 haneli ve ekranın sol köşesinde kısmen görünür."
+        ],
         "answer": "mesaj",
-        "hint": "İpucu: Şifreli mesaj olayın çözümünde anahtar",
+        "hint": "Şifreli mesaj olayın çözümünde anahtar.",
         "hintCost": 20
       },
       {
         "title": "Gizemli Depo",
         "eventNumber": 2,
-        "text": "Depoda bir kutu kaybolmuş. Kutunun etrafında ayak izleri var. Olayla ilgili kritik ipucu nedir?",
+        "sentences": [
+          "Depoda kilitli bir kutu kaybolmuştu.",
+          "Kutunun çevresindeki toz tabakasında belirgin izler vardı.",
+          "\"Bu {answer} bize kutunun kaç kişi tarafından taşındığını ve hangi yöne götürüldüğünü söylüyor.\""
+        ],
+        "evidences": [
+          "📦 Kutu son envanter sayımında kayıt altına alınmıştı — 3 gün önce.",
+          "👣 İki farklı ayakkabı numarasına ait iz var: 41 ve 44.",
+          "🚪 Depo kapısının kilidi anahtar yerine bir tel ile açılmış."
+        ],
         "answer": "ayak izi",
-        "hint": "İpucu: Ayak izleri şüphelinin hareketini gösteriyor",
+        "hint": "Ayak izleri şüphelinin hareketini gösteriyor.",
         "hintCost": 20
       },
       {
         "title": "Mutfak",
         "eventNumber": 3,
-        "text": "Mutfakta bir bardak kırılmış. Kırık cam parçaları bir yerlere taşınmış. Hangi ipucu olayın çözümünde önemli?",
+        "sentences": [
+          "Mutfakta bir bardak kırılmıştı.",
+          "Kırık parçalar orijinal konumdan uzakta bulundu — biri tarafından taşınmıştı.",
+          "\"Bu {answer} parçaları, kırılmanın nerede başladığını ve suçlunun sonra neden parçaları topladığını ortaya koyuyor.\""
+        ],
+        "evidences": [
+          "🥃 Bardak yüksek kalite kristal — ofise ait değil, dışarıdan getirilmiş.",
+          "🔬 Parçaların üzerinde iki farklı parmak izine ait desen var.",
+          "📍 En büyük parça lavabonun altında, küçükler ise 2 metre uzakta bulundu."
+        ],
         "answer": "cam",
-        "hint": "İpucu: Kırık cam parçaları şüphelinin izini gösteriyor",
+        "hint": "Kırık cam parçaları şüphelinin izini gösteriyor.",
         "hintCost": 20
       }
     ],
@@ -132,15 +283,36 @@
       {
         "title": "Çalışma Odası",
         "eventNumber": 1,
-        "text": "Fırtınalı bir gecede, kasabanın en zengin iş adamının malikânesine çağrıldım. Çalışma odasındaki çalışma masası darmadağındı ve kilitli çekmece zorlanarak açılmıştı. Masanın hemen yanında, hırsızın kaçarken düşürdüğü ve üzerinde yabancı bir isim yazılı olan deri bir {answer} duruyordu.",
+        "sentences": [
+          "Fırtınalı bir gecede, kasabanın en zengin iş adamının malikânesine çağrıldım.",
+          "Çalışma odasındaki masa darmadağındı ve kilitli çekmece zorlanarak açılmıştı.",
+          "Masanın hemen yanında, hırsızın kaçarken düşürdüğü, üzerinde yabancı bir isim yazılı deri bir nesne duruyordu.",
+          "\"Bu {answer} bize suçlunun kimliğine dair ilk somut ipucunu veriyor.\""
+        ],
+        "evidences": [
+          "🌧️ Fırtına gece 22:00'de başladı — hırsız bunu bilerek seçmiş olabilir.",
+          "🔒 Çekmece kilidi törpü veya benzer bir aletle zorlanmış.",
+          "📖 Ajandanın içindeki isim: 'Kemal Aydın' — Demirsoy ailesiyle bağlantısı araştırılıyor.",
+          "🪑 Sandalye ters devrilmiş — hırsız kaçarken çarpmış."
+        ],
         "answer": "Ajanda",
-        "hint": "İçinde kartların, paraların ve bazen de sahibinin kimliğinin bulunduğu, deri aksesuar.",
+        "hint": "İçinde kartların, paraların ve bazen de sahibinin kimliğinin bulunduğu deri aksesuar.",
         "hintCost": 20
       },
       {
         "title": "Karanlıkta Bir Parıltı",
         "eventNumber": 2,
-        "text": "Odanın pencerelerini kontrol ederken, balkon kapısının tam kapanmadığını fark ettim. Dışarıdaki karanlık ve çamurlu bahçede, bahçıvanın kulübesine doğru hareket eden belirgin bir {answer} ışığı seçiliyordu. Yağmur şiddetlenmeden önce bu parıltının peşinden gitmem gerekiyordu.",
+        "sentences": [
+          "Odanın pencerelerini kontrol ederken, balkon kapısının tam kapanmadığını fark ettim.",
+          "Dışarıdaki karanlık ve çamurlu bahçede, bahçıvanın kulübesine doğru hareket eden belirgin bir ışık seçiliyordu.",
+          "\"Yağmur şiddetlenmeden önce bu {answer} parıltısının peşinden gitmem gerekiyordu.\""
+        ],
+        "evidences": [
+          "🚪 Balkon kapısının kilidi içeriden değil, dışarıdan açılmış.",
+          "🌿 Balkon basamaklarında taze çamur izi var — ayakkabı izi belirgin.",
+          "🔦 Parıltı kulübeye yaklaştıkça kesildi — birileri içeri girmiş olabilir.",
+          "🌧️ Yağmur iz bırakmadan önce hareket etmek zorundaydım."
+        ],
         "answer": "fener",
         "hint": "Karanlıkta yolunu bulmak isteyen birinin etrafı aydınlatmak için kullandığı araç.",
         "hintCost": 20
@@ -148,25 +320,57 @@
       {
         "title": "Görgü Tanığı",
         "eventNumber": 3,
-        "text": "Bahçıvanın kulübesine vardığımda yaşlı adamın elleri titriyordu. Bana o gece bahçede bir karaltı gördüğünü, ancak şimşek çaktığı anda yabancının yüzünü tamamen gizleyen siyah bir {answer} taktığını fark ettiğini söyledi. Bu, profesyonel bir soyguncuyla karşı karşıya olduğumuzun ilk işaretiydi.",
+        "sentences": [
+          "Bahçıvanın kulübesine vardığımda yaşlı adamın elleri titriyordu.",
+          "O gece bahçede bir karaltı gördüğünü söyledi.",
+          "Şimşek çaktığı anda yabancının yüzünü tamamen gizleyen siyah bir şey taktığını fark etmişti.",
+          "\"Bu {answer}, profesyonel bir soyguncuyla karşı karşıya olduğumuzun ilk işaretiydi.\""
+        ],
+        "evidences": [
+          "👴 Bahçıvan 34 yıldır bu ailede çalışıyor — güvenilir bir tanık.",
+          "⚡ Şimşek tam o an çakmasaydı yabancının yüzü hiç görülmeyecekti.",
+          "📐 Bahçıvana göre karaltı yaklaşık 180 cm boyunda ve geniş omuzluydu.",
+          "🌑 Karaltı kulübeye yaklaştıktan sonra malikânenin arka kapısına yöneldi."
+        ],
         "answer": "maske",
-        "hint": "Birinin yüzünü tanınmaz hale getirmek için taktığı, sadece göz delikleri olan örtü veya nesne.",
+        "hint": "Birinin yüzünü tanınmaz hale getirmek için taktığı örtü veya nesne.",
         "hintCost": 20
       },
       {
         "title": "Tozlu Basamaklar",
         "eventNumber": 4,
-        "text": "Malikâneye geri dönüp gizli bir bölme ararken, kütüphanedeki kitaplığın arkasında dar bir merdiven buldum. Tozlu basamakları tırmandığımda, küçük bir sandığın içinde gizlenmiş, üzerinde eski mühürler bulunan buruşuk bir {answer} parçası buldum. Bu belge, çalınan vasiyetnamenin aslında sahte olduğunu kanıtlıyordu.",
+        "sentences": [
+          "Malikâneye geri dönüp gizli bir bölme ararken, kütüphanedeki kitaplığın arkasında dar bir merdiven buldum.",
+          "Tozlu basamakları tırmandığımda, küçük bir sandığın içinde gizlenmiş eski mühürlü bir şey dikkatimi çekti.",
+          "\"Bu buruşuk {answer} parçası, çalınan vasiyetnamenin aslında sahte olduğunu kanıtlıyordu.\""
+        ],
+        "evidences": [
+          "📚 Kitaplık son 10 yıldır hiç hareket ettirilmemiş — bu gece biri kaydırmış.",
+          "🕯️ Basamaklarda taze mum izi var — elektrik kullanmak istememişler.",
+          "📜 Sandıktaki belgeler 1887 tarihli — ailenin kuruluş dönemine ait.",
+          "🔏 Mühür Demirsoy ailesinin eski armasıyla eşleşiyor."
+        ],
         "answer": "Kağıt",
-        "hint": "Üzerine yazı yazılan, vasiyetnamelerin veya gizli notların hazırlandığı ince malzeme",
+        "hint": "Üzerine yazı yazılan, vasiyetnamelerin veya gizli notların hazırlandığı ince malzeme.",
         "hintCost": 20
       },
       {
         "title": "Kaçınılmaz Son",
         "eventNumber": 5,
-        "text": "Aileyi salonda topladığımda hepsinin yüzünde bir gerginlik vardı. Suçlunun kim olduğunu açıklayacakken, yeğenlerden birinin paltosunun cebinden sarkan metal bir {answer} parıltısını gördüm. Çekmeceyi açmak için kullandığı o alet, gerçek suçluyu tüm aileye ilan etmeye yetmişti.",
+        "sentences": [
+          "Aileyi salonda topladığımda hepsinin yüzünde bir gerginlik vardı.",
+          "Suçlunun kim olduğunu açıklayacakken bir parıltı gördüm.",
+          "Yeğenlerden birinin paltosunun cebinden sarkan metal bir nesne parlıyordu.",
+          "\"Çekmeceyi açmak için kullandığı bu {answer}, gerçek suçluyu tüm aileye ilan etmeye yetmişti.\""
+        ],
+        "evidences": [
+          "👔 Yeğenin paltosunda taze çamur izi — bahçeden yeni gelmiş.",
+          "🔑 Metal nesnenin dişleri, çekmecedeki kilit izleriyle birebir eşleşiyor.",
+          "😰 Yeğen soruyu yanıtlamaya çalışırken sol elini cebinden çıkarmadı.",
+          "📋 Ajandasındaki 'Kemal Aydın' ismi, şüphelinin gizli ortağına işaret ediyor."
+        ],
         "answer": "Anahtar",
-        "hint": "Kilitli kapıları veya çekmeceleri açmak için kullanılan metal araç",
+        "hint": "Kilitli kapıları veya çekmeceleri açmak için kullanılan metal araç.",
         "hintCost": 20
       }
     ]
