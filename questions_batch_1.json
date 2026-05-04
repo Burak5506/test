@@ -1,6 +1,6 @@
 {
   "batchIndex": 1,
-  "version": 2,
+  "version": 3,
   "events": {
     "1": [
       {
@@ -10,7 +10,7 @@
           "Antika dükkanının tozlu masasında, gidilen uzak diyarları anlatan eski bir harita ve yanına iliştirilmiş yarım kalmış bir bilet buluyorsun.",
           "Duvardaki saatin durduğu noktada, dükkan sahibinin el yazısıyla \"Huzur evde değil, gidilen yoldadır\" notu göze çarpıyor.",
           "Masadaki pusula tam kuzeyi gösterirken, altına kazınmış olan gizemli şifre seni bu maceranın ruhunu temsil eden o temel eyleme yönlendiriyor.",
-          "Dükkan sahibinin hem notlarında hem de haritasında işaret ettiği, bu gizemli maceranın kalbindeki {answer} nedir?"
+          "Dükkan sahibinin hem notlarında hem de haritasında işaret ettiği, bu gizemli maceranın kalbindeki o asıl sır: {answer}."
         ],
         "evidences": [
           {
@@ -30,6 +30,42 @@
         ],
         "answer": "yolculuk",
         "hint": "Eski bir bilet koçanında ya da tozlu bir pusulada saklı kalan, seni bilinmez bir varış noktasına doğru sürükleyen o bitmek bilmeyen serüvendir.",
+        "hintCost": 20
+      },
+      {
+        "title": "",
+        "eventNumber": 2,
+        "sentences": [
+          "Masanın üzerindeki haritada işaretlenen rotaları takip ederken, ağır bir dolabın arkasına gizlenmiş eski bir denizci sandığına rastlıyorsun.",
+          "Sandığın kapağını açtığında karşına çıkan yıpranmış denizci şapkası ve üzerinde \"Rüzgar ne yönden eserse essin, dümen benim elimde\" yazılı bronz bir levha dikkatini çekiyor.",
+          "Tüm bu belgeler ve eşyalar, dükkan sahibinin sadece bir yolcu değil, bir gemiyi idare eden ve tüm sorumluluğu üstlenen o yetkili kişi olduğunu kanıtlıyor.",
+          "Masanın üzerinde duran tüm bu belgeler ve eşyalar, dükkan sahibinin aslında bir gemiyi idare eden ve tüm sorumluluğu üstlenen o {answer} olduğunu açıkça gösteriyor."
+        ],
+        "evidences": [
+          {
+            "type": "environmental",
+            "icon": "🌿",
+            "label": "ESKİ PORTRE",
+            "refCode": "VISU_05",
+            "text": "Tabloda dükkan sahibi, fırtınalı bir denizde geminin en önünde, kararlı bakışlarla mürettebatını yönetirken resmedilmiş."
+          },
+          {
+            "type": "digital",
+            "icon": "💻",
+            "label": "SES KAYDI",
+            "refCode": "DIGI_02",
+            "text": "Kayıt cihazından gelen seste, 'Bu geminin tek bir hakimi vardır, o da dümendeki kişidir' ifadesi yankılanıyor."
+          },
+          {
+            "type": "physical",
+            "icon": "🔍",
+            "label": "GÜMÜŞ DÜDÜK",
+            "refCode": "PHYS_03",
+            "text": "Üzerinde 'Emirleri sadece denizler susturabilir' yazan, yüksek rütbeli denizcilere mahsus gümüş bir düdük."
+          }
+        ],
+        "answer": "kaptan",
+        "hint": "Geminin dümendeki hakimiyetini ve mürettebat üzerindeki sarsılmaz otoritesini simgeleyen bu unvan, fırtınalı denizlerde rotayı belirleyen tek kişiyi temsil eder.",
         "hintCost": 20
       }
     ],
