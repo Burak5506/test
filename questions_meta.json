@@ -1,10 +1,10 @@
 {
-  "version": 3,
+  "version": 4,
   "batchSize": 5,
   "batches": [
     {
       "batchIndex": 1,
-      "version": 3,
+      "version": 4,
       "fileNumbers": [
         1,
         2,
